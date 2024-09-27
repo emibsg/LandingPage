@@ -1,0 +1,44 @@
+.contato{
+    background-color: greenyellow;
+    width: 400px;
+    
+}
+
+.assunto{
+    width: 400px;
+    height: 30px;
+}
+
+.name{
+    width: 195px;
+    height: 30px;
+}
+
+.email{
+    width: 195px;
+    height: 30px;
+}
+
+.download{
+    color: #09db25;
+}
+
+.section{
+    display: flex;
+    gap: 10px;
+}
+
+.botão{
+    background-color: #11aa25;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+.paragrafo{
+    width: 400px;
+}
+.paragrafo-titulo{
+    width: 800px;
+}
