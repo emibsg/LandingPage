@@ -1,3 +1,56 @@
+.navbar {
+    background-image: url(https://images.pexels.com/photos/5946083/pexels-photo-5946083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 250px;
+    width: 100%;
+    border: 1pt solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    
+}
+
+.logo{
+    font-size: 35px;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.logo a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero-section{
+    display: flex ;
+    align-items: center;
+    border: 1pt solid red;
+    padding-top: 120px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid blue;
+}
+
 .contato{
     background-color: greenyellow;
     width: 400px;
